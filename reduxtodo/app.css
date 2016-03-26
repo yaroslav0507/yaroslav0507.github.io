@@ -1,0 +1,98 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  background-color: #E2E2E2; }
+
+.todo {
+  position: relative;
+  overflow: hidden;
+  width: 690px;
+  margin: 50px auto; }
+  .todo__list {
+    float: left;
+    width: 100%; }
+    .todo__list-items-left {
+      position: absolute;
+      padding: 15px;
+      color: #666;
+      bottom: 10px;
+      right: 5px; }
+  .todo__input {
+    position: relative;
+    width: 100% !important;
+    margin: 0 -15px;
+    font-size: 22px;
+    padding-bottom: 20px; }
+    .todo__input input {
+      padding-left: 65px !important;
+      font-size: 22px !important;
+      font-weight: 100 !important;
+      font-style: italic !important; }
+  .todo__add {
+    position: relative;
+    width: 100%;
+    padding: 15px;
+    float: left;
+    margin-bottom: -31px; }
+  .todo__filter {
+    padding: 15px;
+    float: left; }
+
+.toggled {
+  opacity: .6;
+  transition: all ease .6s; }
+  .toggled label {
+    text-decoration: line-through; }
+
+.logo-icon {
+  color: #fff; }
+
+.filter-label {
+  margin-right: 15px !important; }
+
+/*# sourceMappingURL=app.css.map*/
