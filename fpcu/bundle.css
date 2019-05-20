@@ -171,6 +171,11 @@ html, body {
 .text-block {
   margin-bottom: 20px;
   line-height: 1.6em; }
+  .text-block_narrow {
+    max-width: 100%;
+    width: 610px;
+    margin-left: auto;
+    margin-right: auto; }
   @media (min-width: 720px) {
     .text-block {
       margin-bottom: 40px; } }
