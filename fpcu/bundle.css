@@ -1,0 +1,205 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*Edge*/
+@supports (-ms-accelerator: true) {
+  html {
+    overflow: hidden;
+    height: 100%; }
+  body {
+    overflow: auto;
+    height: 100%; } }
+
+/*Ie 10/11*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  html {
+    overflow: hidden;
+    height: 100%; }
+  body {
+    overflow: auto;
+    height: 100%; } }
+
+* {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+.brand-font {
+  font-family: 'Raleway', sans-serif; }
+
+body {
+  font-family: Helvetica, sans-serif, Arial; }
+
+h3 {
+  font-size: 40px;
+  text-transform: uppercase; }
+  @media (min-width: 720px) {
+    h3 {
+      font-size: 60px; } }
+
+h4 {
+  font-size: 22px;
+  line-height: 1.3em; }
+  @media (min-width: 720px) {
+    h4 {
+      font-size: 35px; } }
+
+h5 {
+  line-height: 1.2em;
+  font-size: 20px; }
+  @media (min-width: 720px) {
+    h5 {
+      font-size: 28px; } }
+
+h6 {
+  font-size: 24px; }
+
+.text-blue {
+  color: #d1e0eb; }
+
+html, body {
+  overflow: auto;
+  min-height: 100%; }
+
+.page {
+  background: url(src/img/bg.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  padding-top: 200px;
+  height: 100%; }
+  @media (min-width: 720px) {
+    .page {
+      padding-top: 556px; } }
+
+.header {
+  background: #0c3c60;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0; }
+  .header__container {
+    height: 86px;
+    font-size: 19px;
+    display: flex;
+    max-width: 980px;
+    width: 100%;
+    padding: 0 20px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center; }
+  .header__text {
+    color: #d1e0eb;
+    font-size: 12px;
+    padding-left: 10px; }
+    @media (min-width: 720px) {
+      .header__text {
+        font-size: 18px; } }
+
+.page-label {
+  text-transform: uppercase;
+  color: #0c3c60;
+  text-align: center;
+  padding: 50px 0; }
+  .page-label__small {
+    margin-bottom: 20px;
+    font-size: 24px; }
+    @media (min-width: 720px) {
+      .page-label__small {
+        font-size: 31px; } }
+
+.page-content {
+  max-width: 980px;
+  margin: auto;
+  padding: 73px 20px 50px;
+  text-align: center; }
+  @media (min-width: 720px) {
+    .page-content {
+      padding: 73px 120px 50px; } }
+
+.bg-transparent {
+  background-color: rgba(255, 255, 255, 0.7); }
+
+.bg-white {
+  background-color: #fafafa; }
+
+.bg-light-blue {
+  background-color: #d1e0eb; }
+
+.bg-brand {
+  background-color: #0c3c60;
+  color: #ffffff; }
+
+.text-block {
+  margin-bottom: 20px;
+  line-height: 1.6em; }
+  @media (min-width: 720px) {
+    .text-block {
+      margin-bottom: 40px; } }
+
+.margin-top {
+  margin-top: 60px; }
+
+.free-quote {
+  padding: 20px;
+  color: #0c3c60;
+  font-size: 22px; }
+  .free-quote__phone {
+    font-size: 40px;
+    margin-bottom: 20px; }
+    @media (min-width: 720px) {
+      .free-quote__phone {
+        font-size: 50px;
+        margin-bottom: 45px; } }
+
+.contacts {
+  padding: 35px 0;
+  color: #d1e0eb; }
+  .contacts__email {
+    margin-bottom: 10px;
+    display: block; }
+
+.copyright {
+  color: #6EA4CA;
+  margin-top: 60px; }
+
+
+/*# sourceMappingURL=bundle.css.map*/
